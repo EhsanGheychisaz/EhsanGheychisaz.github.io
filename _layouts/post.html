@@ -1,0 +1,14 @@
+---
+layout: default
+---
+<article class="article">
+  <a class="back-link" href="{{ '/' | relative_url }}">← All writing</a>
+  <header class="article-header">
+    <p class="post-meta"><time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%B %-d, %Y" }}</time>{% if page.categories.size > 0 %}<span>·</span><span>{{ page.categories | first }}</span>{% endif %}</p>
+    <h1>{{ page.title | escape }}</h1>
+    {% if page.description %}<p class="lede">{{ page.description | escape }}</p>{% endif %}
+  </header>
+  <div class="article-content">{{ content }}</div>
+  <div class="article-end">—</div>
+  <a class="back-link" href="{{ '/' | relative_url }}">← Back to all writing</a>
+</article>

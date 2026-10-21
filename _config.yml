@@ -1,0 +1,12 @@
+title: Quiet Notes
+description: A personal space for thoughts, ideas, and observations.
+url: ""
+baseurl: ""
+markdown: kramdown
+permalink: /:year/:month/:day/:title/
+theme: null
+plugins:
+  - jekyll-feed
+exclude:
+  - README.md
+  - LICENSE

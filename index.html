@@ -1,0 +1,35 @@
+---
+layout: default
+title: Home
+---
+<section class="intro">
+  <p class="eyebrow">PERSONAL NOTES & OBSERVATIONS</p>
+  <h1>Ideas, thoughts,<br>and things I notice.</h1>
+  <p class="lede">A quiet corner of the internet for reflections, questions, and unfinished thoughts.</p>
+</section>
+
+<section class="post-list" aria-labelledby="latest-heading">
+  <div class="section-heading">
+    <h2 id="latest-heading">Recent writing</h2>
+    <span>{{ site.posts | size }} notes</span>
+  </div>
+  {% if site.posts.size > 0 %}
+    {% for post in site.posts %}
+      <article class="post-preview">
+        <p class="post-meta"><time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %-d, %Y" }}</time>{% if post.categories.size > 0 %}<span>·</span><span>{{ post.categories | first }}</span>{% endif %}</p>
+        <h3><a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a></h3>
+        {% if post.description %}
+          <p>{{ post.description | escape }}</p>
+        {% else %}
+          <p>{{ post.excerpt | strip_html | normalize_whitespace | truncate: 180 }}</p>
+        {% endif %}
+        <a class="read-more" href="{{ post.url | relative_url }}">Read note <span aria-hidden="true">↗</span></a>
+      </article>
+    {% endfor %}
+  {% else %}
+    <div class="empty-state">
+      <p>Your first note starts here.</p>
+      <p class="muted">Add a Markdown file to the <code>_posts</code> folder to publish your first thought.</p>
+    </div>
+  {% endif %}
+</section>
