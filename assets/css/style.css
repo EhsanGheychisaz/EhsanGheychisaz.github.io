@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Lora:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Lora:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap");
 
 :root {
   --paper: #f7f9fc;
@@ -134,7 +134,7 @@ h1 {
 
 code,
 pre {
-  font-family: 'JetBrains Mono', monospace;
+  font-family: "JetBrains Mono", monospace;
 }
 
 .post-list {
@@ -331,5 +331,43 @@ code {
   }
   .article-header {
     padding-top: 35px;
+  }
+}
+
+.about-profile {
+  display: grid;
+  grid-template-columns: 220px minmax(0, 1fr);
+  gap: 2.5rem;
+  align-items: start;
+  margin-top: 2rem;
+}
+
+.profile-photo {
+  display: block;
+  width: 100%;
+  aspect-ratio: 4 / 5;
+  object-fit: cover;
+  border-radius: 12px;
+  border: 1px solid var(--line);
+}
+
+.about-text h1 {
+  margin-top: 0;
+}
+
+.about-text p {
+  line-height: 1.85;
+}
+
+@media (max-width: 600px) {
+  .about-profile {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+
+  .profile-photo {
+    width: 180px;
+    aspect-ratio: 1;
+    border-radius: 50%;
   }
 }

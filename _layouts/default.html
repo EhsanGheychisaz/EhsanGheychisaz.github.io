@@ -3,6 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/png" href="{{ '/assets/images/favicon.png' | relative_url }}">
   <meta name="description" content="{{ page.description | default: site.description | escape }}">
   <title>{% if page.title and page.title != "Home" %}{{ page.title | escape }} — {% endif %}{{ site.title | escape }}</title>
   <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
@@ -14,6 +15,7 @@
       <a class="wordmark" href="{{ '/' | relative_url }}"><span class="mark">EG</span><span>{{ site.title | escape }}</span></a>
       <nav aria-label="Main navigation">
         <a href="{{ '/' | relative_url }}">Writing</a>
+        <a href="{{ '/teaching/' | relative_url }}">Teaching</a>
         <a href="{{ '/about/' | relative_url }}">About</a>
       </nav>
     </header>
