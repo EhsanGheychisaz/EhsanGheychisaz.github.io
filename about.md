@@ -14,8 +14,6 @@ permalink: /about/
 
   <div class="about-text">
 
-    # About Me
-
     I'm a computer science graduate from the University of Isfahan, interested in mathematics, programming, and cryptography.
 
     I have worked with the Rosen Bridge team and am currently contributing to the Minotaur project on the Ergo platform as a volunteer.
