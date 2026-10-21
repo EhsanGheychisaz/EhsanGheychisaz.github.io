@@ -1,6 +1,6 @@
-title: Quiet Notes
-description: A personal space for thoughts, ideas, and observations.
-url: ""
+title: Ehsan Gheychisaz
+description: A personal space for math, programming, cryptography, and my observations.
+url: "https://ehsangheychisaz.github.io/"
 baseurl: ""
 markdown: kramdown
 permalink: /:year/:month/:day/:title/
