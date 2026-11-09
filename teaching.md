@@ -7,7 +7,7 @@ permalink: /teaching/
 # Teaching
 
 I have served as a Teaching Assistant (TA) for several undergraduate courses, helping students understand core concepts and develop their problem-solving skills.
-You can contact me via email at ehsan.gheychisaz@eng.ui.ac.ir.
+You can contact me via email at ehsan.gheychisaz@eng.ui.ac.ir
 
 ## Teaching Experience
 
