@@ -7,8 +7,24 @@ permalink: /teaching/
 # Teaching
 
 I have served as a Teaching Assistant (TA) for several undergraduate courses, helping students understand core concepts and develop their problem-solving skills.
+You can contact me via email at ehsan.gheychisaz@eng.ui.ac.ir.
 
 ## Teaching Experience
+
+### Computer Architecture
+- **Role:** Teaching Assistant
+- **Instructor:** Dr. Rezai
+- **Academic Year:** 2026–2027 (1405)
+
+### Logic Circuits
+- **Role:** Teaching Assistant
+- **Instructor:** Dr. Biki
+- **Academic Year:** 2026–2027 (1405)
+
+### Computer Architecture
+- **Role:** Teaching Assistant
+- **Instructor:** Dr. Biki
+- **Academic Year:** 2026–2027 (1405)
 
 ### Operating Systems
 - **Role:** Teaching Assistant
